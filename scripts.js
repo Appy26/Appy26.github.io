@@ -72,15 +72,21 @@ $(document).ready(function () {
     });
 });
 
-let resume=document.getElementById("Resume")
+let resume=document.getElementById("res1")
 resume.addEventListener("click",()=>{
-    window.open("https://drive.google.com/file/d/1I0TZVDrapOw26EuGh7RUifY37bUVvLju/view?usp=share_link")
+    console.log("Hello")
+    window.open("https://drive.google.com/file/d/18owvfqwkY_8t4-aT39WlSBBtSBcxA-Kl/view?usp=share_link")
 })
+
+function HandleDownload(){
+    console.log("hello")
+}
+HandleDownload()
 
 
 let resume2=document.getElementById("Resume2")
 resume2.addEventListener("click",()=>{
-    window.open("https://drive.google.com/file/d/1I0TZVDrapOw26EuGh7RUifY37bUVvLju/view?usp=share_link")
+    window.open("https://drive.google.com/file/d/18owvfqwkY_8t4-aT39WlSBBtSBcxA-Kl/view?usp=share_link")
 })
 
 // GitHubCalendar(".calendar", "akarshabhardwaj");
