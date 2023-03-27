@@ -101,7 +101,7 @@ resume2.addEventListener("click",()=>{
 //    }
 // }).then(r => r.text())
 
-GitHubCalendar(".calendar", "Appy26");
-// or enable responsive functionality
-GitHubCalendar(".calendar", "Appy26", { responsive: true });
+// GitHubCalendar(".calendar", "Appy26");
+// // or enable responsive functionality
+// GitHubCalendar(".calendar", "Appy26", { responsive: true });
 //<div class="js-calendar-graph mx-md-2 mx-3 d-flex flex-column flex-items-end flex-xl-items-center overflow-hidden pt-1 is-graph-loading graph-canvas ContributionCalendar height-full text-center" data-graph-url="/users/akarshabhardwaj/contributions" data-url="/akarshabhardwaj" data-from="2022-02-27 00:00:00 UTC" data-to="2023-02-27 23:59:59 UTC" data-org>
