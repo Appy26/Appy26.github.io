@@ -839,7 +839,7 @@
   body{
     background-color: #A9CCE3 ;
   }
-  #abt{
+  .abt{
     /* font-family:'Times New Roman', Times, serif; */
     font-stretch: expanded;
     /* font-style: oblique; */
