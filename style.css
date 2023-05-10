@@ -737,7 +737,7 @@
       line-height: 38px;
     }
   }
-  #github-streak-stats{
+  #stats{
     display: "flex";
     padding: 1%;
     justify-content: space-evenly;
@@ -750,13 +750,13 @@
     margin-top: -10%;
     margin-bottom: -10%;
   }
-  #github-streak-stats img{
+  #stats img{
   
       width: 60%;
     margin: auto;
     margin-top: 1%;
   }
-  #github-streak-stats h2{
+  #stats h2{
     margin-top: 2%;
   }
   /* #stats img{
