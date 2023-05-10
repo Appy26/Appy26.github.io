@@ -959,3 +959,10 @@
   .home-img{
     border-radius: 50%;
   }
+  .skills-card-name{
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    /* text-decoration: underline; */
+  }
