@@ -879,8 +879,8 @@
   #skillslist{
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap: 25px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
     margin: auto;
     border: 0px solid red;
     padding: 3%;
@@ -965,4 +965,10 @@
     font-size: 14px;
     line-height: 16px;
     /* text-decoration: underline; */
+  }
+
+
+  #myForm button{
+    background-color: #6e6f6d;
+    color:rgb(244, 243, 243);
   }

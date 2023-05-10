@@ -72,20 +72,20 @@ $(document).ready(function () {
     });
 });
 
-let resume=document.getElementById("res1")
-resume.addEventListener("click",()=>{
+let resume = document.getElementById("res1")
+resume.addEventListener("click", () => {
     console.log("Hello")
     window.open("https://drive.google.com/file/d/18owvfqwkY_8t4-aT39WlSBBtSBcxA-Kl/view?usp=share_link")
 })
 
-function HandleDownload(){
+function HandleDownload() {
     console.log("hello")
 }
 HandleDownload()
 
 
-let resume2=document.getElementById("Resume2")
-resume2.addEventListener("click",()=>{
+let resume2 = document.getElementById("Resume2")
+resume2.addEventListener("click", () => {
     window.open("https://drive.google.com/file/d/18owvfqwkY_8t4-aT39WlSBBtSBcxA-Kl/view?usp=share_link")
 })
 
@@ -101,8 +101,14 @@ resume2.addEventListener("click",()=>{
 //    }
 // }).then(r => r.text())
 
- GitHubCalendar(".calendar", "Appy26");
+GitHubCalendar(".calendar", "Appy26");
 // // or enable responsive functionality
- GitHubCalendar(".calendar", "Appy26", { responsive: true });
+GitHubCalendar(".calendar", "Appy26", { responsive: true });
 //<div class="js-calendar-graph mx-md-2 mx-3 d-flex flex-column flex-items-end flex-xl-items-center overflow-hidden pt-1 is-graph-loading graph-canvas ContributionCalendar height-full text-center" data-graph-url="/users/akarshabhardwaj/contributions" data-url="/akarshabhardwaj" data-from="2022-02-27 00:00:00 UTC" data-to="2023-02-27 23:59:59 UTC" data-org>
 console.log("hello i am aparna");
+
+
+window.onload(() => {
+    document.getElementById("myForm").reset()
+
+})
