@@ -45,7 +45,7 @@
   footer {
     font-family: "Poppins", sans-serif;
   }
-  .aboutSec aboutSec-content,
+  .aboutSec .aboutSec-content,
   .services .serv-content,
   .skills .skills-content,
   .contact .contact-content {
@@ -225,7 +225,7 @@
   
   /* about section styling */
   .aboutSec{
-  
+  display:flex;
    
    background-image: url("");
    background-size: cover;
