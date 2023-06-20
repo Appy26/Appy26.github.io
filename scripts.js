@@ -72,7 +72,7 @@ $(document).ready(function () {
     });
 });
 
-let resume = document.getElementById("res1")
+let resume = document.getElementById("resume-link-1")
 resume.addEventListener("click", () => {
     console.log("Hello")
     window.open("https://drive.google.com/file/d/18owvfqwkY_8t4-aT39WlSBBtSBcxA-Kl/view?usp=share_link")
