@@ -84,7 +84,7 @@ function HandleDownload() {
 HandleDownload()
 
 
-let resume2 = document.getElementById("Resume2")
+let resume2 = document.getElementById("resume-button-2")
 resume2.addEventListener("click", () => {
     window.open("https://drive.google.com/file/d/18owvfqwkY_8t4-aT39WlSBBtSBcxA-Kl/view?usp=share_link")
 })
