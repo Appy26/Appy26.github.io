@@ -801,12 +801,12 @@
     transition: all 0.3s ease; 
   }
   
-  #Resume2{
+  #resume-button-2{
     background-color: teal;
     color: white;
   }
-  
-  #Resume2:hover{
+
+  #resume-button-2:hover{
     background-color: rgb(19, 63, 63);
     color: white;
   }
